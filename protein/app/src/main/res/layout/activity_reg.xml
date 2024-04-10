@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#7ee7b6"
+    tools:context=".RegActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="70dp"
+        android:fontFamily="@font/aldrich"
+        android:text="REGISTRATION"
+        android:textColor="#272626"
+        android:textStyle="bold"
+        android:textSize="25sp" />
+
+    <EditText
+        android:id="@+id/user_login"
+        android:layout_width="220dp"
+        android:layout_height="50dp"
+        android:ems="10"
+        android:inputType="text"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        android:textColorHint="#5a5858"
+        android:textColor="#272626"
+        android:hint="Enter login" />
+
+    <EditText
+        android:id="@+id/user_email"
+        android:layout_width="220dp"
+        android:layout_height="50dp"
+        android:ems="10"
+        android:inputType="textEmailAddress"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        android:textColorHint="#5a5858"
+        android:textColor="#272626"
+        android:hint="Enter email" />
+
+    <EditText
+        android:id="@+id/user_firstname"
+        android:layout_width="220dp"
+        android:layout_height="50dp"
+        android:ems="10"
+        android:inputType="text"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        android:textColorHint="#5a5858"
+        android:textColor="#272626"
+        android:hint="Enter name" />
+
+    <EditText
+        android:id="@+id/user_lastname"
+        android:layout_width="220dp"
+        android:layout_height="50dp"
+        android:ems="10"
+        android:inputType="text"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        android:textColorHint="#5a5858"
+        android:textColor="#272626"
+        android:hint="Enter lastname" />
+
+    <EditText
+        android:id="@+id/user_pass"
+        android:layout_width="220dp"
+        android:layout_height="50dp"
+        android:ems="10"
+        android:inputType="textPassword"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        android:textColorHint="#5a5858"
+        android:textColor="#272626"
+        android:hint="Enter password" />
+
+    <EditText
+        android:id="@+id/user_repeat"
+        android:layout_width="220dp"
+        android:layout_height="50dp"
+        android:ems="10"
+        android:inputType="textPassword"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        android:textColorHint="#5a5858"
+        android:textColor="#272626"
+        android:hint="Repeat password" />
+
+    <Button
+        android:id="@+id/button_reg"
+        android:layout_width="220dp"
+        android:layout_height="wrap_content"
+        android:text="Register"
+        android:textStyle="bold"
+        android:layout_gravity="center"
+        android:backgroundTint="#da423c"
+        android:layout_marginTop="30dp"/>
+
+    <TextView
+        android:id="@+id/link_to_auth"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:fontFamily="@font/aldrich"
+        android:text="Log in"
+        android:textColor="#272626"
+        android:textSize="17sp" />
+</LinearLayout>
